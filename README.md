@@ -1,6 +1,6 @@
 # React Quiz App 🧠⚡
 
-![React Quiz App Banner](./public/banner.png)
+![React Quiz App Banner](./public/banner-img.png)
 
 A modern and interactive quiz application built with **React**.  
 This project focuses on clean state management, component composition, and real-world React best practices.
