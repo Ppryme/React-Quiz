@@ -35,7 +35,7 @@ export default function Quiz() {
 
      
 
-    return <div id="quiz" className=" w-7xl">
+    return <div id="quiz" className=" max-w-7xl">
                 <Question 
                 key={activeQuestionIndex}
                 index = {activeQuestionIndex}
