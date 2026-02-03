@@ -35,7 +35,8 @@ export default function Quiz() {
 
      
 
-    return <div id="quiz" className=" max-w-7xl">
+    return  <div id="quiz-container " className=" w-full">
+                 <div id="quiz" className=" max-w-4xl sm:p-8 p-0 pb-8 ">
                 <Question 
                 key={activeQuestionIndex}
                 index = {activeQuestionIndex}
@@ -43,4 +44,6 @@ export default function Quiz() {
                 onskipAnswer={handleSkipAnswer}
                 />
     </div>
+    </div>
+    
 }
